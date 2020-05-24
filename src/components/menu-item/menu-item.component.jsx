@@ -21,4 +21,5 @@ const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
   </div>
 );
 
+// @ts-ignore
 export default withRouter(MenuItem);

@@ -11,6 +11,7 @@ const CollectionPreview = ({ title, items }) => (
       {items
         .filter((item, index) => index < 4)
         .map(({ id, ...itemProps }) => (
+          // @ts-ignore
           <CollectionItem key={id} {...itemProps} />
         ))}
     </div>
